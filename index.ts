@@ -19,7 +19,7 @@ const CONVERSION_FACTORS: Record<UnitOfTime, number> = {
   year: 1000 * 60 * 60 * 24 * 365,
 };
 
-const convertTime = (input: {
+export const convertTime = (input: {
   duration: number;
   from: UnitOfTime;
   to?: UnitOfTime;
