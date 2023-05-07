@@ -1,5 +1,12 @@
 # converttime
 
+## 0.0.6
+
+### Patch Changes
+
+- 9150752: rename repo
+- 1082de4: expose UnitOfTime and Duration
+
 ## 0.0.5
 
 ### Patch Changes
