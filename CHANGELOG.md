@@ -1,4 +1,4 @@
-# convert-time
+# converttime
 
 ## 0.0.2
 
