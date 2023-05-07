@@ -1,5 +1,11 @@
 # converttime
 
+## 0.0.5
+
+### Patch Changes
+
+- 9f44648: add export for const
+
 ## 0.0.4
 
 ### Patch Changes
