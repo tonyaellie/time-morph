@@ -34,7 +34,7 @@ The function returns the converted duration, rounded to the nearest integer.
 
 ## Contributing
 
-Contributions to TimeMorph are welcome! To contribute, please fork the [repository](https://github.com/tonyaellie/convert-time) and submit a pull request with your changes.
+Contributions to TimeMorph are welcome! To contribute, please fork the [repository](https://github.com/tonyaellie/time-morph) and submit a pull request with your changes.
 
 ## License
 
