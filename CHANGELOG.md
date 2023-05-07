@@ -1,5 +1,11 @@
 # converttime
 
+## 0.0.4
+
+### Patch Changes
+
+- a655411: add a readme
+
 ## 0.0.3
 
 ### Patch Changes
