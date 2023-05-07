@@ -1,4 +1,4 @@
-type UnitOfTime =
+export type UnitOfTime =
   | 'ms'
   | 'sec'
   | 'min'
@@ -7,6 +7,11 @@ type UnitOfTime =
   | 'week'
   | 'month'
   | 'year';
+
+export type Duration = {
+  unit: UnitOfTime;
+  duration: number;
+}
 
 const CONVERSION_FACTORS: Record<UnitOfTime, number> = {
   ms: 1,
