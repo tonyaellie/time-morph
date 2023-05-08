@@ -1,5 +1,11 @@
 # converttime
 
+## 0.1.0
+
+### Minor Changes
+
+- a32da14: added a wrapper around setInterval and setTimeout
+
 ## 0.0.6
 
 ### Patch Changes
