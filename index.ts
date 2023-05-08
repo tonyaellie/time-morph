@@ -34,3 +34,17 @@ export const convertTime = (input: {
 };
 
 export default convertTime;
+
+export const setMorphInterval = (callback: () => void, duration: Duration) => {
+  return window.setInterval(
+    callback,
+    convertTime({ duration: duration.duration, from: duration.unit })
+  );
+}
+
+export const setMorphTimeout = (callback: () => void, duration: Duration) => {
+  return window.setTimeout(
+    callback,
+    convertTime({ duration: duration.duration, from: duration.unit })
+  );
+};

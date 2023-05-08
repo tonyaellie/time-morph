@@ -32,6 +32,37 @@ In this example, the `convertTime` function takes an object with the following p
 
 The function returns the converted duration, rounded to the nearest integer.
 
+TimeMorph also provides `setMorphInterval` and `setMorphTimeout` functions for setting intervals and timeouts with durations specified in any unit of time. These functions are similar to the native `setInterval` and `setTimeout` functions, but they accept a duration and unit of time instead of a number of milliseconds. For example:
+
+```typescript
+import { setMorphInterval, setMorphTimeout } from 'time-morph';
+
+setMorphInterval(
+  () => {
+    console.log('Hello, world!');
+  },
+  {
+    duration: 1,
+    unit: 'sec',
+  }
+); // Logs "Hello, world!" every second
+
+setMorphTimeout(
+  () => {
+    console.log('Hello, world!');
+  },
+  {
+    duration: 1,
+    unit: 'sec',
+  }
+); // Logs "Hello, world!" after one second
+```
+
+In these examples, the `setMorphInterval` and `setMorphTimeout` functions take a callback function and an object with the following properties:
+
+- `duration` (required): The duration to wait before executing the callback, in the specified unit of time.
+- `unit` (required): The unit of time for the duration, specified as one of the following strings: ms, sec, min, hour, day, week, month, or year.
+
 ## Contributing
 
 Contributions to TimeMorph are welcome! To contribute, please fork the [repository](https://github.com/tonyaellie/time-morph) and submit a pull request with your changes.
